@@ -1,15 +1,16 @@
 package TestNGBasics;
-
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
-
 public class Annotations {
   @BeforeMethod
   public void beforeMethod() {
@@ -51,16 +52,13 @@ public class Annotations {
   @Test
   public void afterTestTest() {
 	System.out.println("Test1");
-    //throw new RuntimeException("Test not implemented");
   }
   @Test
   public void beforeTestTest() {
 	  System.out.println("Test2");
-    //throw new RuntimeException("Test not implemented");
   }
   @Test
   public void fTest() {
 	  System.out.println("Test3");
-    //throw new RuntimeException("Test not implemented");
   }
 }

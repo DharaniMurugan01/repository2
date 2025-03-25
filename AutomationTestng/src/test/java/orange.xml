@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+    <test name="OrangeHRM Test">
+        <parameter name="x" value="chrome"/>  
+        <classes>
+            <class name="Pomexample.Orange"/>
+            <class name="Pomexample.Pompractice1"/>
+        </classes>
+    </test>
+</suite>

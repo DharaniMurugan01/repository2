@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <suite name="My Test Suite">
+
+  <test name="Test - Group 1 Only">
+    <groups>
+      <run>
+        <include name="group1"/> <!-- Runs only group1 tests -->
+      </run>
+    </groups>
+    <classes>
+      <class name="Practice.Orders"/>
+    </classes>
+  </test>
+
+  <test name="Test - Group 2 Only">  <!-- ❌ Changed <test1> to <test> -->
+    <groups>
+      <run>
+        <include name="group2"/> <!-- Runs only group2 tests -->
+      </run>
+    </groups>
+    <classes>
+      <class name="Practice.Orders"/>
+    </classes>
+  </test>
+
+  <test name="Test - All Groups  Parameters">
+    <parameter name="x" value="50"/>  <!-- Override parameter for this test -->
+    <classes>
+      <class name="Practice.Orders"/>
+    </classes>
+  </test>
+
+</suite>
