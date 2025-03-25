@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T07:03:05 IST" name="Suite" finished-at="2025-03-25T07:03:25 IST" duration-ms="20078">
+  <suite started-at="2025-03-25T07:11:40 IST" name="Suite" finished-at="2025-03-25T07:12:06 IST" duration-ms="25909">
     <groups>
     </groups>
-    <test started-at="2025-03-25T07:03:05 IST" name="Test" finished-at="2025-03-25T07:03:25 IST" duration-ms="20078">
+    <test started-at="2025-03-25T07:11:40 IST" name="Test" finished-at="2025-03-25T07:12:06 IST" duration-ms="25909">
       <class name="TestNGBasics.Practice">
-        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:TestNGBasics.Practice@dd8ba08]" started-at="2025-03-25T07:03:05 IST" name="before" finished-at="2025-03-25T07:03:18 IST" duration-ms="13221" status="PASS">
+        <test-method is-config="true" signature="before(java.lang.String)[pri:0, instance:TestNGBasics.Practice@6ae5aa72]" started-at="2025-03-25T07:11:40 IST" name="before" finished-at="2025-03-25T07:11:57 IST" duration-ms="16724" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="validation()[pri:0, instance:TestNGBasics.Practice@dd8ba08]" started-at="2025-03-25T07:03:18 IST" name="validation" finished-at="2025-03-25T07:03:23 IST" duration-ms="4110" status="PASS">
+        <test-method signature="validation()[pri:0, instance:TestNGBasics.Practice@6ae5aa72]" started-at="2025-03-25T07:11:57 IST" name="validation" finished-at="2025-03-25T07:12:03 IST" duration-ms="5842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validation -->
-        <test-method signature="verification()[pri:0, instance:TestNGBasics.Practice@dd8ba08]" started-at="2025-03-25T07:03:23 IST" name="verification" finished-at="2025-03-25T07:03:24 IST" duration-ms="1674" status="PASS">
+        <test-method signature="verification()[pri:0, instance:TestNGBasics.Practice@6ae5aa72]" started-at="2025-03-25T07:12:03 IST" name="verification" finished-at="2025-03-25T07:12:04 IST" duration-ms="896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verification -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGBasics.Practice@dd8ba08]" started-at="2025-03-25T07:03:24 IST" name="afterMethod" finished-at="2025-03-25T07:03:25 IST" duration-ms="927" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNGBasics.Practice@6ae5aa72]" started-at="2025-03-25T07:12:04 IST" name="afterMethod" finished-at="2025-03-25T07:12:06 IST" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
