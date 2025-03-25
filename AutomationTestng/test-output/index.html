@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\ADMIN\git\repository14\AutomationTestng\src\test\java\orange.xml</span>
+                    <span>C:\Users\ADMIN\git\repository14\AutomationTestng\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Pomexample.Pompractice1" class="method navigator-link" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestNGBasics.Practice" class="method navigator-link" hash-for-method="validation">validation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Pomexample.Orange" class="method navigator-link" hash-for-method="validation">validation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Pomexample.Orange" class="method navigator-link" hash-for-method="verification">verification</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestNGBasics.Practice" class="method navigator-link" hash-for-method="verification">verification</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,7 +126,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Pomexample.Orange</span>
+              <span class="class-name">TestNGBasics.Practice</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -150,38 +145,22 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Pomexample.Pompractice1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testSearch">
-                  </a> <!-- testSearch -->
-                  <span class="method-name">testSearch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ADMIN\git\repository14\AutomationTestng\src\test\java\orange.xml</span>
+            <span class="header-content">C:\Users\ADMIN\git\repository14\AutomationTestng\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;OrangeHRM Test&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;x&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Pomexample.Orange&quot;/&gt;
-      &lt;class name=&quot;Pomexample.Pompractice1&quot;/&gt;
+      &lt;class name=&quot;TestNGBasics.Practice&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- OrangeHRM Test --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,7 +172,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">OrangeHRM Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,24 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validation')
-data.setCell(0, 2, 'Pomexample.Orange')
-data.setCell(0, 3, 6903);
+data.setCell(0, 2, 'TestNGBasics.Practice')
+data.setCell(0, 3, 4110);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testSearch')
-data.setCell(1, 2, 'Pomexample.Pompractice1')
-data.setCell(1, 3, 4090);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verification')
-data.setCell(2, 2, 'Pomexample.Orange')
-data.setCell(2, 3, 3754);
+data.setCell(1, 1, 'verification')
+data.setCell(1, 2, 'TestNGBasics.Practice')
+data.setCell(1, 3, 1674);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -262,46 +237,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Pomexample.Orange</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestNGBasics.Practice</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">before(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validation</span>
-                <span class="method-start">12151 ms</span>
+                <span class="method-start">13305 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Pomexample.Pompractice1</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">12161 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Pomexample.Orange</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verification</span>
-                <span class="method-start">19069 ms</span>
+                <span class="method-start">17437 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Pomexample.Pompractice1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testSearch</span>
-                <span class="method-start">32445 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">36566 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Pomexample.Orange</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">38103 ms</span>
+                <span class="method-start">19117 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
